@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>All Services - RJ Motocare</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+        }
+
+        /* container */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        /* header */
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        /* back button */
+        .back-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: .3s;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* card */
+        .service-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: .3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+        }
+
+        /* icon */
+        .service-icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        /* title */
+        .service-title {
+            margin: 5px 0;
+        }
+
+        /* price */
+        .service-price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+
+        /* button */
+        .book-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 22px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: .3s;
+        }
+
+        .book-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>All Bike Services</h1>
+
+            <p>RJ Motocare Complete Service Price List</p>
+
+            <a href="index.html" class="back-btn">
+                ← Back to Home
+            </a>
+
+        </div>
+
+
+        <div class="services-grid">
+            <!-- General Service -->
+            <div class="service-card highlight">
+                <div class="service-icon">🔧</div>
+                <h3 class="service-title">General Service</h3>
+                <p class="service-description">
+                    Plug, Brake adjust, Chain adjust, Light checkup
+                </p>
+                <div class="service-price">₹450</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want General Service (₹450)"
+                    class="book-btn" target="_blank">
+
+                    Book Now
+
+                </a>
+            </div>
+
+
+            <!-- Full Service -->
+            <div class="service-card highlight">
+                <div class="service-icon">⚙️</div>
+                <h3 class="service-title">Full Service</h3>
+                <p class="service-description">
+                    Complete bike service with inspection
+                </p>
+                <div class="service-price">₹500</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Full Service (₹500)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+            </div>
+
+
+            <!-- Engine Repair -->
+            <div class="service-card">
+                <div class="service-icon">🔩</div>
+                <h3 class="service-title">Engine Repair</h3>
+                <p class="service-description">
+                    Complete engine repair and rebuild
+                </p>
+                <div class="service-price">₹3500</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Engine Repair (₹3500)"
+                    class="book-btn" target="_blank">
+
+                    Book Now
+
+                </a>
+            </div>
+
+
+            <!-- Oil Change -->
+            <div class="service-card">
+                <div class="service-icon">🛢️</div>
+                <h3 class="service-title">Oil Change</h3>
+                <p class="service-description">
+                    Engine oil replacement
+                </p>
+                <div class="service-price">₹70</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Oil Change (₹70)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+            </div>
+
+
+            <!-- Air Filter -->
+            <div class="service-card">
+                <div class="service-icon">🌬️</div>
+                <h3 class="service-title">Air Filter</h3>
+                <p class="service-description">
+                    Air filter cleaning or replacement
+                </p>
+                <div class="service-price">₹30</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Air Filter (₹30)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+            </div>
+
+
+            <!-- Chain Service -->
+            <div class="service-card">
+                <div class="service-icon">⛓️</div>
+                <h3 class="service-title">Chain Service</h3>
+                <p class="service-description">
+                    Chain cleaning and lubrication
+                </p>
+                <div class="service-price">₹200</div>
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Chain Service (₹200)"
+                    class="book-btn" target="_blank">
+                    Book Now
+                </a>
+            </div>
+
+
+            <!-- Disk Service -->
+            <div class="service-card">
+                <div class="service-icon">🛞</div>
+                <h3 class="service-title">Disk Service</h3>
+                <p class="service-description">
+                    Brake disk cleaning and adjustment
+                </p>
+                <div class="service-price">₹300</div>
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Disk Service (₹300)" class="book-btn"
+                    target="_blank">
+                    Book Now
+                </a>
+            </div>
+
+            <!-- Carburetor Clean -->
+            <div class="service-card">
+                <div class="service-icon">🧼</div>
+                <h3 class="service-title">Carburetor Clean</h3>
+                <div class="service-price">₹100</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Carburetor Clean (₹100)"
+                    class="book-btn" target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Chain Service -->
+            <div class="service-card">
+                <div class="service-icon">⛓️</div>
+                <h3 class="service-title">Chain Service</h3>
+                <div class="service-price">₹200</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Chain Service (₹200)"
+                    class="book-btn" target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Clone Set -->
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3 class="service-title">Clone Set</h3>
+                <div class="service-price">₹200</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Clone Set (₹200)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Fork Oil Replacement -->
+            <div class="service-card">
+                <div class="service-icon">🛢️</div>
+                <h3 class="service-title">Fork Oil Replacement</h3>
+                <div class="service-price">₹200</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Fork Oil Replacement (₹200)"
+                    class="book-btn" target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Clutch Clean -->
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3 class="service-title">Clutch Clean</h3>
+                <div class="service-price">₹250</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Clutch Clean (₹250)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Brake Adjust -->
+            <div class="service-card">
+                <div class="service-icon">🛞</div>
+                <h3 class="service-title">Brake Adjust</h3>
+                <div class="service-price">₹50</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Brake Adjust (₹50)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+            <!-- Brake Clean -->
+            <div class="service-card">
+                <div class="service-icon">🧽</div>
+                <h3 class="service-title">Brake Clean</h3>
+                <div class="service-price">₹70</div>
+
+                <a href="https://wa.me/916381413566?text=Hello RJ Motocare, I want Brake Clean (₹70)" class="book-btn"
+                    target="_blank">
+
+                    Book Now
+
+                </a>
+
+            </div>
+
+
+
+        </div>
+
+</body>
+
+</html>
